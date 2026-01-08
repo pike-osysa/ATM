@@ -3,6 +3,7 @@ public class DepositTransaction extends Transaction{
 
     public DepositTransaction(Account account,double amount){
          super(account);
+         this.DepositAmount=amount;
     }
 
     @Override
